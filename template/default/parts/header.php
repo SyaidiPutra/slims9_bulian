@@ -78,7 +78,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
     <!-- // my custom style -->
     <link rel="stylesheet" href="<?php echo assets('css/style.css?v=' . date('Ymd-his')); ?>">
 
-    <link rel="shortcut icon" href="webicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="webicon.ico" type="image/png"/>
 
     <!-- // load vue js -->
     <script src="<?php echo assets('js/vue.min.js'); ?>"></script>
